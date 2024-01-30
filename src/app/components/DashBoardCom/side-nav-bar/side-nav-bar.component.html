@@ -1,0 +1,237 @@
+<div class="container">
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img src="images/21867403.png" alt="" style="width: 80%;height: 80%;">
+                </a>
+            </li>
+            <li>
+                <div class="main-thing">
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">DashBoard</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="transport-show.html">
+                    <span class="icon"><ion-icon name="bus-outline"></ion-icon></span>
+                    <span class="title">Gestion des transports</span>
+                </a>
+            </li>
+            <li>
+                <a href="hotel.html">
+                    <span class="icon"><ion-icon name="bed-outline"></ion-icon></span>
+                    <span class="title">Gestion des hotels</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="voyage.html">
+                    <span class="icon"><ion-icon name="boat-outline"></ion-icon></span>
+                    <span class="title">Gestion des voyages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <span class="title">Password</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="title">SignOut</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- main -->
+
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>    
+            </div>
+            <div class="search">
+                <label for="">
+                    <input type="text" placeholder="Search Here"><ion-icon name="search-outline"></ion-icon>
+                </label>
+            </div>
+            <!-- userImage -->
+            <div class="action">
+                <div class="user" onclick="menuToggle();">
+                    <img src="images/hhh.PNG">
+                </div>
+                <div class="menu">
+                    <h3>Brahim<br><span>FrontEnd Designer</span></h3>
+                    <ul>
+                        <li><ion-icon name="person-circle-outline"></ion-icon><a href="#">My Profile</a></li>
+                        <li><ion-icon name="create-outline"></ion-icon><a href="#">Edit Profile</a></li>
+                        <li><ion-icon name="albums-outline"></ion-icon><a href="#">Inbox</a></li>
+                        <li><ion-icon name="settings-outline"></ion-icon><a href="#">Settings</a></li>
+                        <li><ion-icon name="log-out-outline"></ion-icon><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <!-- cards -->
+    <div class="cardBox">
+        <div class="card">
+            <div class="">
+                <div class="numbers">1,504</div>
+                <div class="cardName">Daily Views</div>
+            </div>
+            <div class="iconBox">
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="card">
+            <div class="">
+                <div class="numbers">100,847</div>
+                <div class="cardName">Earnings(in DH)</div>
+            </div>
+            <div class="iconBox">
+                <ion-icon name="cash-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="card">
+            <div class="">
+                <div class="numbers">100</div>
+                <div class="cardName">Comments</div>
+            </div>
+            <div class="iconBox">
+                <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+            </div>
+        </div>
+    
+        <div class="card">
+             <div class="">
+                <div class="numbers">20</div>
+                <div class="cardName">Trips Completed</div>
+            </div>
+            <div class="iconBox">
+            <ion-icon name="boat-outline"></ion-icon>
+             </div>
+        </div>
+</div>
+<!-- order details list -->
+<div class="details">
+    <div class="recentOrders">
+        <div class="cardHeader">
+            <h2>Recent Trips</h2>
+            <a href="#" class="btn">View All</a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Name of vacation</td>
+                    <td>Price</td>
+                    <td>Seats available</td>
+                    <td>Status</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Star Vacation</td>
+                    <td>$1200</td>
+                    <td>Sold out</td>
+                    <td><span class="status delivered">Done</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Marrackech Vacation</td>
+                    <td>$1200</td>
+                    <td>Sold out</td>
+                    <td><span class="status delivered">Done</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Chefchaoune Vacation</td>
+                    <td>$1200</td>
+                    <td>5</td>
+                    <td><span class="status Waiting">Waiting</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Agadir Vacation</td>
+                    <td>$1200</td>
+                    <td>1</td>
+                    <td><span class="status Waiting">Waiting</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Dakhla Vacation</td>
+                    <td>$1200</td>
+                    <td>4</td>
+                    <td><span class="status canceled">Canceled</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Tangier Vacation</td>
+                    <td>$1200</td>
+                    <td>12</td>
+                    <td><span class="status Waiting">Waiting</span></td>
+                </tr>
+            </tbody><tbody>
+                <tr>
+                    <td>Okman Vacation</td>
+                    <td>$1200</td>
+                    <td>4</td>
+                    <td><span class="status Waiting">Waiting</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Plsman Vacation</td>
+                    <td>$1200</td>
+                    <td>7</td>
+                    <td><span class="status Waiting">Waiting</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Wowman Vacation</td>
+                    <td>$1200</td>
+                    <td>6</td>
+                    <td><span class="status delivered">Delivered</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Sheeshman Vacation</td>
+                    <td>$1200</td>
+                    <td>5</td>
+                    <td><span class="status delivered">Delivered</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Paris Vacation</td>
+                    <td>$1200</td>
+                    <td>4</td>
+                    <td><span class="status delivered">Delivered</span></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Madrid Vacation</td>
+                    <td>$1200</td>
+                    <td>12</td>
+                    <td><span class="status delivered">Delivered</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>
